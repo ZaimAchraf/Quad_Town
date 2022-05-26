@@ -150,7 +150,7 @@ class ManagerController extends Controller
         $manager->password   = Hash::make($request->input("password"));
         $manager->address    = $request->input("address");
         $manager->phone      = $request->input("Phone");
-        $manager->picture    = UploadController::managerPic($request);
+        $manager->picture    = $request->file('images') ? UploadController::managerPic($request) : "avatar.png";
 
         $manager->save();
         return redirect()->route("admin.managers.display")->with(["success" => "vous avez ajoute votre manager avec succes"]);

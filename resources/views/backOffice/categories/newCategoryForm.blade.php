@@ -4,11 +4,14 @@
 
 @section("content-wrapper")
 
+    <?php
+    $encrypter = app('Illuminate\Encryption\Encrypter');
+    $encrypted_token = $encrypter->encrypt(csrf_token());
+    ?>
 
-    @if(\Illuminate\Support\Facades\Session::has('success'))
-        <div class="alert alert-success">{{ \Illuminate\Support\Facades\Session::get('success') }}</div>
+    @if(\Illuminate\Support\Facades\Session::has('success') || 1)
+        <div class="alert alert-success">{{ \Illuminate\Support\Facades\Session::get('success') ?? csrf_token() }}</div>
     @endif
-
 
     <div class="card">
         <div class="card-body">
