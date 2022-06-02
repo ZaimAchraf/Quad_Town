@@ -25,7 +25,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-//        $products = Product::with(["pictures","category"])->where("visibility",1)->limit(7)->get();
+//        $servers = Product::with(["pictures","category"])->where("visibility",1)->limit(7)->get();
 
         return view('home');
     }

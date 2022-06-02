@@ -15,7 +15,7 @@ class ProductsProvider extends ServiceProvider
     public function register()
     {
         view()->composer('frontOffice.allProducts',function ($view){
-            $view->with('products', Product::with(["category","pictures"])->where("visibility",1)->paginate(12));
+            $view->with('servers', Product::with(["category","pictures"])->where("visibility",1)->paginate(12));
         });
     }
 

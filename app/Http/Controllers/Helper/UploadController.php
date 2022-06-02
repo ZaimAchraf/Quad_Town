@@ -29,7 +29,7 @@ class UploadController extends Controller
         foreach ($files as $file){
             $extension = strtolower($file->getClientOriginalExtension());
             $filename = "product-".uniqid(time()).".".$extension;
-            $file->move('uploads/products/category-'.$request->category_id."/",$filename);
+            $file->move('uploads/servers/category-'.$request->category_id."/",$filename);
             $filenameList[] = 'category-'.$request->category_id."/".$filename;
         }
 

@@ -373,7 +373,7 @@ $(function () {
      */
     const productSlider = function () {
         // Get Collection of all Product Slider
-        let $productsSlider = $('.products-slider');
+        let $productsSlider = $('.servers-slider');
         $productsSlider.on('initialize.owl.carousel',function () {
            $(this).closest('.slider-fouc').removeAttr('class');
         }).each(function () {

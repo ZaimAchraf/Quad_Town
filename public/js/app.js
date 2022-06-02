@@ -34764,7 +34764,7 @@ return jQuery;
         }
         index = offset + match.length;
 
-        // The JS engine embedded in Adobe products needs `match` returned in
+        // The JS engine embedded in Adobe servers needs `match` returned in
         // order to produce the correct `offset` value.
         return match;
       });
