@@ -58,10 +58,10 @@
 :root {
 
 	/* #df0303 in decimal RGB */
-  --main-color: rgb(223,3,3);
+  --main-color: rgb(84 148 193);
 
   /* #010c3a in decimal RGB */
-  --main-color-two: rgb(0, 0, 0);
+  --main-color-two: #fff;
 
   /* #00162b in decimal RGBA */
   --main-color-rgba: rgb(223,3,3,0.40);
@@ -77,6 +77,10 @@
 
   /* #000000 in decimal RGB */
   --black-color:rgb(0,0,0);
+
+  --titles-color:rgb(7,36,58);
+
+
 
   /* #ffffff in decimal RGBA Two */
   --black-color-opicity:rgba(0,0,0,0.80);
@@ -1001,7 +1005,7 @@ img{
 
 .sec-title.light .text,
 .sec-title.light h2{
-	color:var(--white-color);
+	color:var(--titles-color);
 }
 
 .sec-title.centered{

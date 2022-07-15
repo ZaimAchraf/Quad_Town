@@ -7,8 +7,8 @@
                 <!-- Title Column -->
                 <div class="title-column col-lg-6 col-md-12 col-sm-12">
                     <div class="inner-column">
-                        <h3>Sign up for our newsletter</h3>
-                        <div class="text">Stay up to update with our latest news and products.</div>
+                        <h3>{{__("index.newsletter_title")}}</h3>
+                        <div class="text">{{__("index.newsletter_subtitle")}}</div>
                     </div>
                 </div>
 
@@ -16,9 +16,13 @@
                 <div class="form-column col-lg-6 col-md-12 col-sm-12">
                     <div class="inner-column">
                         <div class="newsletter-form">
-                            <form method="post" action="contact.html">
+                            <form method="post" action="{{route("newsletter")}}">
+                                @csrf
                                 <div class="form-group">
                                     <input type="email" name="email" value="" placeholder="Your Email Address" required="">
+                                    @error("email")
+                                        <p class="newsletterError">{{$message}}</p>
+                                    @enderror
                                     <button type="submit" class="theme-btn btn-style-five"><span class="txt">Subscribe</span></button>
                                 </div>
                             </form>
@@ -39,7 +43,7 @@
     <div class="auto-container">
         <div class="widgets-section">
             <div class="logo">
-                <a href="index.html"><img src="{{asset("assets")}}/images/footer-logo.png" alt="" /></a>
+                <a href="index.html"><img src="{{asset("assets")}}/images/logo.png" width="206px" alt="" /></a>
             </div>
             <ul class="contact-info-list">
                 <li>

@@ -1,6 +1,6 @@
 /* NextBit HTML Template */
 
-/* 
+/*
 	font-family: 'Montserrat', sans-serif;
 	font-family: 'Roboto', sans-serif;
 */
@@ -19,7 +19,7 @@
 @import url('jquery.fancybox.min.css');
 @import url('jquery.mCustomScrollbar.min.css');
 
-/*** 
+/***
 
 ====================================================================
 	Main Slider Section
@@ -121,7 +121,7 @@
 }
 
 .main-slider h1{
-	color:var(--white-color);
+	color:var(--titles-color);
 	opacity: 0;
 	transform: translateX(200px);
 	transform-origin: top;
@@ -175,7 +175,7 @@
 	display:none;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Main Slider Section Two
@@ -382,7 +382,7 @@
 	color:var(--main-color);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Appointment Section
@@ -458,7 +458,7 @@
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
-	transition:all 300ms ease;	
+	transition:all 300ms ease;
 }
 
 .appointment-form .form-group button{
@@ -467,7 +467,7 @@
 	top:0px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Services Section
@@ -684,7 +684,7 @@
 	margin-bottom:var(--margin-bottom-30);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Pricing Section
@@ -824,7 +824,7 @@
 	width:100%;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Facility Section
@@ -956,7 +956,7 @@
 	background-size:cover;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Internet Section
@@ -1008,7 +1008,7 @@
 	margin-bottom:var(--margin-bottom-40);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Testimonial Section
@@ -1207,7 +1207,7 @@
     -o-transition: all 600ms ease;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Clients Section
@@ -1239,7 +1239,7 @@
 	display:none;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Featured Section
@@ -1331,7 +1331,7 @@
 	transition: -webkit-transform 0.4s ease;
 	transition: transform 0.4s ease;
 	transition: transform 0.4s ease, -webkit-transform 0.4s ease;
-	
+
 	transition: all 900ms ease;
     -moz-transition: all 900ms ease;
     -webkit-transition: all 900ms ease;
@@ -1503,7 +1503,7 @@
 	color:var(--main-color);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Store Section
@@ -1620,7 +1620,7 @@
 	background-color:var(--main-color);
 }
 
-/*** 
+/***
 
 ====================================================================
 	CTA Section
@@ -1700,7 +1700,7 @@
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
-	transition:all 300ms ease;	
+	transition:all 300ms ease;
 }
 
 .newsletter-form .form-group button{
@@ -1709,7 +1709,7 @@
 	top:0px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Network Section
@@ -1791,7 +1791,7 @@
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
-	transition:all 300ms ease;	
+	transition:all 300ms ease;
 }
 
 .network-section .network-list li .icon{
@@ -1811,7 +1811,7 @@
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
-	transition:all 300ms ease;	
+	transition:all 300ms ease;
 }
 
 .network-section .network-list li .icon:after{
@@ -1852,7 +1852,7 @@
 	line-height:1.7em;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Services Section Two
@@ -2057,7 +2057,7 @@
 	color:var(--main-color);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Faq Section
@@ -2081,7 +2081,7 @@
 	position:relative;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Accordion Style
@@ -2171,7 +2171,7 @@
 }
 
 .accordion-box .block .acc-btn.active .icon-outer{
-	
+
 }
 
 .accordion-box .block .acc-btn.active{
@@ -2188,7 +2188,7 @@
 }
 
 .accordion-box .block .acc-content.current{
-	display:block;	
+	display:block;
 }
 
 .accordion-box .block .content{
@@ -2202,7 +2202,7 @@
 }
 
 .accordion-box .block .content p:last-child{
-	margin-bottom:0px;	
+	margin-bottom:0px;
 }
 
 /* Style Two */
@@ -2250,7 +2250,7 @@
 	z-index:1;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Pricing Section Two
@@ -2451,7 +2451,7 @@
 	font-size:15px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Streaming Section
@@ -2729,7 +2729,7 @@
     100% {box-shadow: 0 0 0 0 rgba(253, 167, 0, 0);}
 }
 
-/*** 
+/***
 
 ====================================================================
 	Internet Section Two
@@ -2825,7 +2825,7 @@
 	margin-bottom:var(--margin-bottom-40);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Internet Section Two
@@ -2937,7 +2937,7 @@
 	padding:10px 35px 10px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Page Title
@@ -2959,8 +2959,8 @@
 	top:0px;
 	right:0px;
 	bottom:0px;
-	background: #010C3A;
-	background: -webkit-linear-gradient(to right, #010C3A 0%, rgba(255,255,255,0) 100%);
+	background: #2f313682 !important;
+	background: -webkit-linear-gradient(to right, #2f313682 0%, rgba(255,255,255,0) 100%);
 	background: -moz-linear-gradient(to right, #010C3A 0%, rgba(255,255,255,0) 100%);
 	background: linear-gradient(to right, #010C3A 0%, rgba(255,255,255,0) 100%);
 }
@@ -3012,14 +3012,14 @@
 	-moz-transition: all 300ms ease;
 	-ms-transition: all 300ms ease;
 	-o-transition: all 300ms ease;
-	transition: all 300ms ease;	
+	transition: all 300ms ease;
 }
 
 .page-title .bread-crumb li a:hover{
 	color: var(--white-color);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Services Section Three
@@ -3037,7 +3037,7 @@
 	margin-top:var(--margin-top-35);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Team Section
@@ -3118,7 +3118,7 @@
 	-moz-transition: all 600ms ease;
 	-ms-transition: all 600ms ease;
 	-o-transition: all 600ms ease;
-	transition: all 600ms ease;	
+	transition: all 600ms ease;
 }
 
 .team-block .inner-box:hover .overlay-box{
@@ -3149,7 +3149,7 @@
 	-moz-transition: all 600ms ease;
 	-ms-transition: all 600ms ease;
 	-o-transition: all 600ms ease;
-	transition: all 600ms ease;	
+	transition: all 600ms ease;
 }
 
 .team-block .inner-box:hover .overlay-box-two{
@@ -3202,7 +3202,7 @@
 	color:var(--main-color-two);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Internet Section Three
@@ -3371,7 +3371,7 @@
 	margin-bottom:var(--margin-bottom-40);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Moview Page Section
@@ -3425,7 +3425,7 @@
 	display:none;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Services Page Section
@@ -3502,7 +3502,7 @@
 	color:var(--white-color);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Sidebar Page Container
@@ -3524,7 +3524,7 @@
 	padding-left:var(--padding-left-20);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Services Detail Section
@@ -4208,7 +4208,7 @@
 	color:var(--main-color);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Comments Area
@@ -4256,7 +4256,7 @@
 }
 
 .sidebar-page-container .comments-area .reply-comment{
-	margin-left:var(--margin-left-40);	
+	margin-left:var(--margin-left-40);
 }
 
 .sidebar-page-container .comments-area .comment-box .author-thumb{
@@ -4323,7 +4323,7 @@
 	color:var(--main-color);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Comment Form
@@ -4420,7 +4420,7 @@
 	margin-bottom:var(--margin-bottom-20);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Contact Page Section
@@ -4535,11 +4535,11 @@
 }
 
 .contact-page-section .info-column .social-box li.facebook a{
-	background:#3b5998;	
+	background:#3b5998;
 }
 
 .contact-page-section .info-column .social-box li.twitter a{
-	background:#33ccfe;	
+	background:#33ccfe;
 }
 
 .contact-page-section .info-column .social-box li.google a{
@@ -4592,7 +4592,7 @@
 	margin-bottom:var(--margin-bottom-20);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Contact Form
@@ -4670,7 +4670,7 @@
 .contact-form input.error,
 .contact-form select.error,
 .contact-form textarea.error{
-	border-color:#ff0000 !important;	
+	border-color:#ff0000 !important;
 }
 
 .contact-form label.error{
@@ -4681,7 +4681,7 @@
 	text-transform:uppercase;
 	font-size:12px;
 	color:#ff0000;
-	font-weight:500;	
+	font-weight:500;
 }
 
 .shop-page-section{
@@ -4689,7 +4689,7 @@
 	padding:110px 0px 100px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Styled Pagination
@@ -4761,7 +4761,7 @@
 	background-color:var(--main-color);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Shop Detail Section
@@ -4875,7 +4875,7 @@
 	color:var(--main-color);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Product Tabs Style
@@ -4912,7 +4912,7 @@
 }
 
 .gallery-tabs .tabs-content{
-	position:relative;	
+	position:relative;
 }
 
 .gallery-tabs .tabs-content .tab{
@@ -4921,7 +4921,7 @@
 }
 
 .gallery-tabs .tabs-content .tab.active-tab{
-	display:block;	
+	display:block;
 }
 
 /* Custom Select */
@@ -4976,7 +4976,7 @@
 }
 
 .ui-menu .ui-menu-item:last-child{
-	border:none;	
+	border:none;
 }
 
 .ui-state-active, .ui-widget-content .ui-state-active{
@@ -4996,7 +4996,7 @@
 	background-color:#025158;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Product Tabs Style
@@ -5048,7 +5048,7 @@
 }
 
 .shop-detail-section .prod-tabs .tabs-content .tab.active-tab{
-	display:block;	
+	display:block;
 }
 
 .shop-detail-section .prod-tabs .tabs-content .tab .title{
@@ -5060,7 +5060,7 @@
 	margin-bottom:var(--margin-bottom-25);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Comments Area
@@ -5085,11 +5085,11 @@
 }
 
 .shop-detail-section .comments-area .comment-box:nth-child(1){
-	padding-top:0px;	
+	padding-top:0px;
 }
 
 .shop-detail-section .comments-area .comment-box:hover{
-	border-color:var(--main-color);	
+	border-color:var(--main-color);
 }
 
 .shop-detail-section .comments-area .comment-box.reply-comment{
@@ -5280,7 +5280,7 @@
 .shop-comment-form input:focus,
 .shop-comment-form select:focus,
 .shop-comment-form textarea:focus{
-	border-color:var(--main-color);	
+	border-color:var(--main-color);
 }
 
 .related-products-section{
@@ -5329,11 +5329,11 @@
 	transition:all 500ms ease;
 	-webkit-transition:all 500ms ease;
 	-ms-transition:all 500ms ease;
-	-o-transition:all 500ms ease;	
+	-o-transition:all 500ms ease;
 }
 
 .shop-page-section .items-sorting select option{
-	text-indent:15px;	
+	text-indent:15px;
 }
 
 .shop-page-section .options-views{
@@ -5375,7 +5375,7 @@
 
 
 
-/*** 
+/***
 
 ====================================================================
 	Cart Section style
@@ -5389,11 +5389,11 @@
 }
 
 .cart-outer{
-	position:relative;	
+	position:relative;
 }
 
 .checkout-page .cart-outer{
-	margin-bottom:40px;	
+	margin-bottom:40px;
 }
 
 .cart-outer .table-outer{
@@ -5431,7 +5431,7 @@
 }
 
 .cart-table thead tr th .fa{
-	font-size:18px;	
+	font-size:18px;
 }
 
 .cart-table tbody tr td{
@@ -5465,7 +5465,7 @@
 }
 
 .cart-table tbody tr .prod-column .column-box h4{
-	
+
 }
 
 .cart-table tbody tr .prod-column .column-box .text{
@@ -5539,7 +5539,7 @@
 
 .cart-table tbody .available-info{
 	position:relative;
-	padding-left:50px;	
+	padding-left:50px;
 }
 
 .cart-table tbody .available-info .icon{
@@ -5572,7 +5572,7 @@
 .cart-section .apply-coupon .form-group{
 	position:relative;
 	float:left;
-	margin-right:10px;	
+	margin-right:10px;
 }
 
 .cart-section .apply-coupon .form-group input[type="text"]{
@@ -5654,7 +5654,7 @@
 }
 
 .cart-table tbody tr .qty .quantity-spinner{
-	background:#ffffff;	
+	background:#ffffff;
 	height:50px;
 }
 
@@ -5686,7 +5686,7 @@
 
 .product-details .bootstrap-touchspin .input-group-btn-vertical i,
 .cart-section .bootstrap-touchspin .input-group-btn-vertical i{
-	top:1px;	
+	top:1px;
 }
 
 
@@ -5724,7 +5724,7 @@
 
 .checkout-page .default-links{
 	position:relative;
-	margin-bottom:40px;	
+	margin-bottom:40px;
 }
 
 .checkout-page .default-links li{
@@ -5754,11 +5754,11 @@
 
 .shop-form .form-group{
 	position:relative;
-	margin-bottom:20px;	
+	margin-bottom:20px;
 }
 
 .billing-details .shop-form .sec-title{
-	margin-bottom:20px;	
+	margin-bottom:20px;
 }
 
 .billing-details .shop-form .form-group.sec-title{
@@ -5780,7 +5780,7 @@
 .shop-form .form-group .field-label sup{
 	position:relative;
 	top:0px;
-	color:#797979;	
+	color:#797979;
 	font-size:16px;
 }
 
@@ -5827,19 +5827,19 @@
 }
 
 .shop-form select option{
-	text-indent:15px;	
+	text-indent:15px;
 }
 
 .shop-form textarea{
 	resize:none;
 	height:100px !important;
-	overflow:hidden;	
+	overflow:hidden;
 }
 
 .shop-form input:focus,
 .shop-form select:focus,
 .shop-form textarea:focus{
-	border-color:#df0303;	
+	border-color:#df0303;
 }
 
 /* Shop Order Box */
@@ -5884,16 +5884,16 @@
 .payment-options{
 	position:relative;
 	margin-top:20px;
-	margin-bottom:20px;	
+	margin-bottom:20px;
 }
 
 .checkout-page .payment-options li{
 	position:relative;
-	margin-bottom:15px;	
+	margin-bottom:15px;
 }
 
 .checkout-page .payment-options li .radio-option{
-	position:relative;		
+	position:relative;
 }
 
 .checkout-page .payment-options li .radio-option label{
@@ -5918,7 +5918,7 @@
 .checkout-page .payment-options li .radio-option input[type="radio"]{
 	position:absolute;
 	left:0px;
-	top:3px;	
+	top:3px;
 }
 
 .checkout-page .payment-options li .radio-option #payment-3{
@@ -5970,12 +5970,12 @@
 	top:-3px;
 	display:inline-block;
 	max-width:100%;
-	padding-left:30px;	
+	padding-left:30px;
 }
 
 .checkout-page .payment-options li .radio-option label img{
 	position:relative;
 	display:inline-block;
 	max-width:100%;
-	padding-left:30px;	
+	padding-left:30px;
 }

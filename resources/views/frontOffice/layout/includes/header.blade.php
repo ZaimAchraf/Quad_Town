@@ -3,7 +3,7 @@
 
     <!-- Header Top -->
     <div class="header-top">
-        <div class="auto-container clearfix">
+        <div class="auto-container clearfix" style="background: #00507e; margin-left: 0">
 
             <div class="pull-left">
                 <ul class="info">
@@ -32,7 +32,7 @@
             <div class="inner-container clearfix">
 
                 <div class="pull-left logo-box">
-                    <div class="logo"><a href="index.html"><img src="{{asset("assets")}}/images/logo.png" alt="" title=""></a></div>
+                    <div class="logo"><a href="/"><img src="{{asset("assets")}}/images/logo.png" width="180px" height="70px" alt="" title=""></a></div>
                 </div>
                 <div class="nav-outer clearfix">
 
@@ -50,47 +50,15 @@
 
                         <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
                             <ul class="navigation clearfix">
-                                <li class="current dropdown"><a href="#">Home</a>
+                                <li><a href="{{route("home")}}">{{__("index.home")}}</a></li>
+                                <li class="dropdown"><a href="#">{{__("index.about")}}</a>
                                     <ul>
-                                        <li><a href="index.html">Homepage One</a></li>
-                                        <li><a href="index-2.html">Homepage Two</a></li>
-                                        <li class="dropdown"><a href="#">Header Styles</a>
-                                            <ul>
-                                                <li><a href="index.html">Header Style One</a></li>
-                                                <li><a href="index-2.html">Header Style Two</a></li>
-                                            </ul>
-                                        </li>
+                                        <li><a href="{{route("about")}}">{{__("index.about")}}</a></li>
+                                        <li><a href="#">{{__("index.pricing")}}</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown"><a href="#">About</a>
-                                    <ul>
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="price.html">Pricing</a></li>
-                                        <li><a href="movie.html">Movie's</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a href="#">Services</a>
-                                    <ul>
-                                        <li><a href="services.html">Services</a></li>
-                                        <li><a href="services-detail.html">Services Detail</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a href="#">Shop</a>
-                                    <ul>
-                                        <li><a href="shop.html">Our Products</a></li>
-                                        <li><a href="shop-single.html">Product Single</a></li>
-                                        <li><a href="shoping-cart.html">Shoping Cart</a></li>
-                                        <li><a href="checkout.html">Checkout</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a href="#">Blog</a>
-                                    <ul>
-                                        <li><a href="blog.html">Our Blog</a></li>
-                                        <li><a href="news-detail.html">Blog Single</a></li>
-                                        <li><a href="not-found.html">Not Found</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="contact.html">Contact us</a></li>
+                                <li><a href="{{route("channels")}}">{{__("index.channels")}}</a></li>
+                                <li><a href="{{route("contact")}}">{{__("index.contact")}}</a></li>
                             </ul>
                         </div>
 
@@ -104,39 +72,6 @@
                         <div class="search-box-outer">
                             <div class="search-box-btn"><span class="fa fa-search"></span></div>
                         </div>
-
-                        <!-- Cart Box -->
-                        <div class="cart-box">
-                            <div class="dropdown">
-                                <button class="cart-box-btn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flaticon-shopping-bag-2"></span><span class="total-cart">2</span></button>
-                                <div class="dropdown-menu pull-right cart-panel" aria-labelledby="dropdownMenu1">
-                                    <div class="cart-product">
-                                        <div class="inner">
-                                            <div class="cross-icon"><span class="icon fa fa-remove"></span></div>
-                                            <div class="image"><img src="images/resource/post-thumb-1.jpg" alt="" /></div>
-                                            <h3><a href="shoping-cart.html">Product 01</a></h3>
-                                            <div class="quantity-text">Quantity 1</div>
-                                            <div class="price">$99.00</div>
-                                        </div>
-                                    </div>
-                                    <div class="cart-product">
-                                        <div class="inner">
-                                            <div class="cross-icon"><span class="icon fa fa-remove"></span></div>
-                                            <div class="image"><img src="images/resource/post-thumb-2.jpg" alt="" /></div>
-                                            <h3><a href="shoping-cart.html">Product 02</a></h3>
-                                            <div class="quantity-text">Quantity 1</div>
-                                            <div class="price">$99.00</div>
-                                        </div>
-                                    </div>
-                                    <div class="cart-total">Sub Total: <span>$198</span></div>
-                                    <ul class="btns-boxed">
-                                        <li><a href="shoping-cart.html">View Cart</a></li>
-                                        <li><a href="checkout.html">CheckOut</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Cart Box -->
 
                         <!-- Nav Btn -->
                         <div class="nav-btn navSidebar-button"><span class="icon flaticon-dots-menu"></span></div>
@@ -156,7 +91,7 @@
         <div class="auto-container clearfix">
             <!-- Logo -->
             <div class="logo pull-left">
-                <a href="index.html" title=""><img src="images/logo-small.png" alt="" title=""></a>
+                <a href="/" title=""><img src="{{asset("assets")}}/images/logo-small.png" style="margin-top: -16px;" width="170px" height="50px" alt="" title=""></a>
             </div>
 
             <!--Right Col-->
@@ -174,39 +109,6 @@
                         <div class="search-box-btn"><span class="fa fa-search"></span></div>
                     </div>
 
-                    <!-- Cart Box -->
-                    <div class="cart-box">
-                        <div class="dropdown">
-                            <button class="cart-box-btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flaticon-shopping-bag-2"></span><span class="total-cart">2</span></button>
-                            <div class="dropdown-menu pull-right cart-panel" aria-labelledby="dropdownMenu2">
-                                <div class="cart-product">
-                                    <div class="inner">
-                                        <div class="cross-icon"><span class="icon fa fa-remove"></span></div>
-                                        <div class="image"><img src="images/resource/post-thumb-1.jpg" alt="" /></div>
-                                        <h3><a href="shoping-cart.html">Product 01</a></h3>
-                                        <div class="quantity-text">Quantity 1</div>
-                                        <div class="price">$99.00</div>
-                                    </div>
-                                </div>
-                                <div class="cart-product">
-                                    <div class="inner">
-                                        <div class="cross-icon"><span class="icon fa fa-remove"></span></div>
-                                        <div class="image"><img src="images/resource/post-thumb-2.jpg" alt="" /></div>
-                                        <h3><a href="shoping-cart.html">Product 02</a></h3>
-                                        <div class="quantity-text">Quantity 1</div>
-                                        <div class="price">$99.00</div>
-                                    </div>
-                                </div>
-                                <div class="cart-total">Sub Total: <span>$198</span></div>
-                                <ul class="btns-boxed">
-                                    <li><a href="shoping-cart.html">View Cart</a></li>
-                                    <li><a href="checkout.html">CheckOut</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Cart Box -->
-
                     <!-- Nav Btn -->
                     <div class="nav-btn navSidebar-button"><span class="icon flaticon-dots-menu"></span></div>
 
@@ -223,7 +125,7 @@
         <div class="close-btn"><span class="icon flaticon-multiply"></span></div>
 
         <nav class="menu-box">
-            <div class="nav-logo"><a href="index.html"><img src="images/logo.png" alt="" title=""></a></div>
+            <div class="nav-logo"><a href="/"><img src="images/logo.png" alt="" title=""></a></div>
             <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
         </nav>
     </div><!-- End Mobile Menu -->

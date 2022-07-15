@@ -17,7 +17,7 @@
 }
 
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
-[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
  	font-family: Flaticon;
 	font-style: normal;
 }
@@ -36,6 +36,7 @@
 }
 .flaticon-dots-menu:before {
     content: "\f105";
+    color: #00507e;
 }
 .flaticon-magnifying-glass:before {
     content: "\f106";

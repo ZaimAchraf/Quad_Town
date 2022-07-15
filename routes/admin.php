@@ -5,6 +5,7 @@ use App\Http\Controllers\Admin\CategoryController;
 use App\Http\Controllers\Admin\ManagerController;
 use App\Http\Controllers\Admin\ProductController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\NewsletterController;
 use App\Http\Controllers\PackageController;
 use App\Http\Controllers\ServerController;
 use Illuminate\Support\Facades\Route;
@@ -50,7 +51,7 @@ Route::namespace("Admin")->prefix("admin")->name("admin.")->group(function () {
         Route::post("message/delete", [ContactController::Class, "delete"])->name("message.delete");
         Route::post("message/setRead", [ContactController::Class, "setRead"])->name("message.setRead");
 
-        Route::get("newsletter", [PackageController::Class, "display"])->name("newsletter");
+        Route::get("newsletter", [NewsletterController::Class, "display"])->name("newsletter");
         Route::post("newsletter/changeState", [PackageController::Class, "changeState"])->name("newsletter.changeState");
 
 

@@ -14,12 +14,12 @@
                 <div class="sidebar-info-contents">
                     <div class="content-inner">
                         <div class="logo">
-                            <a href="index.html"><img src="{{asset("assets")}}/images/logo-2.png" alt="" /></a>
+                            <a href="index.html"><img src="{{asset("assets")}}/images/logo.png" width="206px" alt="" /></a>
                         </div>
                         <div class="content-box">
-                            <h5>About Us</h5>
-                            <p class="text">The argument in favor of using filler text goes something like this: If you use real content in the Consulting Process, anytime you reach a review point you’ll end up reviewing and negotiating the content itself and not the design.</p>
-                            <a href="contact.html" class="theme-btn btn-style-one"><span class="txt">Consultation</span></a>
+                            <h5>{{__("index.about")}}</h5>
+                            <p class="text">{{__("index.about_text")}}</p>
+                            <a href="{{route("contact")}}" class="theme-btn btn-style-one"><span class="txt">Consultation</span></a>
                         </div>
                         <div class="contact-info">
                             <h5>Contact Info</h5>

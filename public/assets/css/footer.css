@@ -9,7 +9,7 @@
 
 .main-footer{
 	position:relative;
-	background-color:var(--main-color-two);
+	background-color:var(--titles-color);
 }
 
 .main-footer .pattern-layer-one{
