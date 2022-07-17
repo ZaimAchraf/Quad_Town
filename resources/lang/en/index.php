@@ -53,6 +53,7 @@ return [
     'newsletter_title' => 'Sign up for our newsletter',
     'newsletter_subtitle' => 'Stay up to update with our latest news and products.',
     'subscribe' => 'Subscribe',
+    'config' => 'Settings',
 
 
     'more'   => 'Read More',

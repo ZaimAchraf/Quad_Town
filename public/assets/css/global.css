@@ -691,7 +691,7 @@ img{
 }
 
 .btn-style-one:hover{
-	color:var(--main-color-two);
+	color:var(--main-color);
 }
 
 /* Btn Style Two */
@@ -750,7 +750,7 @@ img{
 }
 
 .btn-style-two:hover{
-	color:var(--main-color-two);
+	color:var(--main-color);
 }
 
 /* Btn Style Three */
@@ -868,7 +868,15 @@ img{
 }
 
 .btn-style-four:hover{
-	color:var(--white-color);
+	color:var(--main-color);
+}
+
+.whatsapp {
+    width: 63px;
+    position: fixed;
+    z-index: 1000;
+    bottom: 10px;
+    left: 12px;
 }
 
 /* Btn Style Five */
@@ -878,14 +886,13 @@ img{
 	line-height: 30px;
 	font-weight:500;
 	overflow: hidden;
-	background:none;
 	text-align:center;
 	border-radius:3px;
 	display: inline-grid;
 	padding: 13px 44px 13px;
 	font-size: var(--font-16);
 	text-transform: capitalize;
-	color: var(--white-color);
+    color: rgb(14 75 126);
 	background-color:var(--main-color-two);
 }
 

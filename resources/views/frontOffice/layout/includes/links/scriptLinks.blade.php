@@ -12,3 +12,4 @@
 <script src="{{asset("assets/js")}}/nav-tool.js"></script>
 <script src="{{asset("assets/js")}}/jquery-ui.js"></script>
 <script src="{{asset("assets/js")}}/script.js"></script>
+<script src="https://kit.fontawesome.com/b0259886c4.js" crossorigin="anonymous"></script>

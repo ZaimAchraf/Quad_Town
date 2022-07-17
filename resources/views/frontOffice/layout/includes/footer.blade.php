@@ -48,13 +48,13 @@
             <ul class="contact-info-list">
                 <li>
                     <span class="icon"><img src="{{asset("assets")}}/images/icons/icon-1.png" alt="" /></span>
-                    <a href="tel:+3453-909-6565">+3453-909-6565</a><br>
-                    <a href="tel:+2390-875-223">+2390-875-223</a>
+                    <a href="https://wa.me/16059713044" target="_blank">+1 (605) 971-3044</a><br>
+                    <a href="https://wa.me/13125006920" target="_blank">+1 (312) 500-6920</a>
                 </li>
                 <li>
                     <span class="icon"><img src="{{asset("assets")}}/images/icons/icon-2.png" alt="" /></span>
-                    <a href="mailto:infoname@gmail.com">infoname@gmail.com</a><br>
-                    <a href="www.yourname.com">www.yourname.com</a>
+                    <a href="mailto:support@iptv-expert.com">support@iptv-expert.com</a><br>
+                    <a href="mailto:support@iptv-expert.com">support@iptv-expert.com</a>
                 </li>
                 <li>
                     <span class="icon"><img src="{{asset("assets")}}/images/icons/icon-3.png" alt="" /></span>

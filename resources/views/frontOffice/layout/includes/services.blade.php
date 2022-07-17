@@ -74,7 +74,7 @@
                         </div>
                         <div class="bold-text">{{__("index.about_quote")}}</div>
                         <div class="text">{{__("index.about_text")}}</div>
-                        <a href="{{route("about")}}" class="theme-btn btn-style-four"><span class="txt">Read More <i class="lnr lnr-arrow-right"></i></span></a>
+                        <a href="{{route("about")}}" class="theme-btn btn-style-four"><span class="txt">Read More </span></a>
                     </div>
                 </div>
 

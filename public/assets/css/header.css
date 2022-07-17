@@ -1392,7 +1392,7 @@
 	position:relative;
 	width:36px;
 	height:36px;
-	color:var(--main-color-two);
+	color:var(--main-color);
 	z-index:1;
 	font-size:var(--font-14);
 	line-height:36px;

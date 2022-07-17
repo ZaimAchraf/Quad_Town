@@ -59,6 +59,11 @@
 <!-- Scroll To Top -->
 <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-arrow-up"></span></div>
 
+<div class="whatsapp">
+    <a href="https://wa.me/212693020346" target="_blank">
+        <img src="{{asset("assets")}}/images/icons/whatsapp.png" alt="" />
+    </a>
+</div>
 
 @include('frontOffice.layout.includes.links.scriptLinks')
 @stack('scripts')

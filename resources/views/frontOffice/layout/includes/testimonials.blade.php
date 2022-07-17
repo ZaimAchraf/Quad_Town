@@ -4,8 +4,8 @@
     <div class="auto-container">
         <!-- Sec Title -->
         <div class="sec-title centered">
-            <div class="title">testimonial</div>
-            <h2>What our clients say</h2>
+            <div class="title">{{__("index.testimonials")}}</div>
+            <h2>{{__("index.testimonials_title")}}</h2>
         </div>
         <!-- End Sec Title -->
 
@@ -15,7 +15,9 @@
             <div class="testimonial-block">
                 <div class="inner-box">
                     <div class="upper-box">
-                        <div class="text">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consec tetur, adipisci velit, sed quia non num the quam eius modi the tempora Neque porro quis quam.</div>
+                        <div class="text">
+                            i
+                        </div>
                     </div>
                     <div class="lower-box">
                         <div class="color-layer"></div>

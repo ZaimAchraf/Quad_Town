@@ -14,7 +14,7 @@
                 <div class="sidebar-info-contents">
                     <div class="content-inner">
                         <div class="logo">
-                            <a href="index.html"><img src="{{asset("assets")}}/images/logo.png" width="206px" alt="" /></a>
+                            <a href="/"><img src="{{asset("assets")}}/images/logo.png" width="206px" alt="" /></a>
                         </div>
                         <div class="content-box">
                             <h5>{{__("index.about")}}</h5>
@@ -25,8 +25,8 @@
                             <h5>Contact Info</h5>
                             <ul class="list-style-one">
                                 <li><span class="icon fa fa-location-arrow"></span>Chicago 12, Melborne City, USA</li>
-                                <li><span class="icon fa fa-phone"></span>(111) 111-111-1111</li>
-                                <li><span class="icon fa fa-envelope"></span>nextbit@gmail.com</li>
+                                <li><span class="icon fa fa-phone"></span>+1 (605) 971-3044</li>
+                                <li><span class="icon fa fa-envelope"></span>support@iptv-expert.com</li>
                                 <li><span class="icon fa fa-clock-o"></span>Week Days: 09.00 to 18.00 Sunday: Closed</li>
                             </ul>
                         </div>

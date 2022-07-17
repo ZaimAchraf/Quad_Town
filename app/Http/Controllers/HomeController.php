@@ -6,7 +6,9 @@ use App\Models\City;
 use App\Models\Favory;
 use App\Models\Package;
 use App\Models\Product;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\App;
 
 class HomeController extends Controller
 {
@@ -57,5 +59,17 @@ class HomeController extends Controller
         return view('frontOffice.checkout')->with(["package"=>$package, "cities" => $cities]);
     }
 
+    public function settings()
+    {
+        return view('frontOffice.settings');
+    }
+
+    function changeLang($lang): RedirectResponse
+    {
+
+        App::setLocale($lang);
+        session()->put("lang_code", $lang);
+        return redirect()->back();
+    }
 
 }

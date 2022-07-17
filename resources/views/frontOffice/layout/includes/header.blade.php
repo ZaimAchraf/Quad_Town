@@ -7,8 +7,8 @@
 
             <div class="pull-left">
                 <ul class="info">
-                    <li><a href="tel:+6789-875-2235"><span class="icon flaticon-maps-and-flags"></span>Call: +6789-875-2235</a></li>
-                    <li><a href="mailto:Info.domain@info.com"><span class="icon flaticon-email-2"></span>Info.domain@info.com</a></li>
+                    <li><a href="https://wa.me/16059713044" target="_blank"><span class="icon flaticon-maps-and-flags"></span>Call: +16059713044</a></li>
+                    <li><a href="mailto:support@iptv-expert.com"><span class="icon flaticon-email-2"></span>support@iptv-expert.com</a></li>
                 </ul>
             </div>
 
@@ -51,14 +51,16 @@
                         <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
                             <ul class="navigation clearfix">
                                 <li><a href="{{route("home")}}">{{__("index.home")}}</a></li>
-                                <li class="dropdown"><a href="#">{{__("index.about")}}</a>
+                                <li><a href="{{route("about")}}">{{__("index.about")}}</a></li>
+                                <li><a href="{{route("channels")}}">{{__("index.channels")}}</a></li>
+                                <li><a href="{{route("settings")}}">{{__("index.config")}}</a></li>
+                                <li><a href="{{route("contact")}}">{{__("index.contact")}}</a></li>
+                                <li class="dropdown"><a href="#"><i class="fa fa-globe"></i></a>
                                     <ul>
-                                        <li><a href="{{route("about")}}">{{__("index.about")}}</a></li>
-                                        <li><a href="#">{{__("index.pricing")}}</a></li>
+                                        <li><a href="/change-lang/en">EN</a></li>
+                                        <li><a href="/change-lang/fr">FR</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="{{route("channels")}}">{{__("index.channels")}}</a></li>
-                                <li><a href="{{route("contact")}}">{{__("index.contact")}}</a></li>
                             </ul>
                         </div>
 
@@ -67,11 +69,6 @@
 
                     <!-- Outer Box -->
                     <div class="outer-box clearfix">
-
-                        <!--Search Box-->
-                        <div class="search-box-outer">
-                            <div class="search-box-btn"><span class="fa fa-search"></span></div>
-                        </div>
 
                         <!-- Nav Btn -->
                         <div class="nav-btn navSidebar-button"><span class="icon flaticon-dots-menu"></span></div>
@@ -104,11 +101,6 @@
                 <!-- Outer Box -->
                 <div class="outer-box clearfix">
 
-                    <!--Search Box-->
-                    <div class="search-box-outer">
-                        <div class="search-box-btn"><span class="fa fa-search"></span></div>
-                    </div>
-
                     <!-- Nav Btn -->
                     <div class="nav-btn navSidebar-button"><span class="icon flaticon-dots-menu"></span></div>
 
@@ -125,7 +117,7 @@
         <div class="close-btn"><span class="icon flaticon-multiply"></span></div>
 
         <nav class="menu-box">
-            <div class="nav-logo"><a href="/"><img src="images/logo.png" alt="" title=""></a></div>
+            <div class="nav-logo"><a href="/"><img src="{{asset("assets")}}/images/logo.png" alt="" title=""></a></div>
             <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
         </nav>
     </div><!-- End Mobile Menu -->
