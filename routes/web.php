@@ -3,6 +3,7 @@
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\NewsletterController;
+use App\Http\Controllers\OrderController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -28,6 +29,8 @@ Route::group(['middleware' => 'App\Http\Middleware\Language'], function () {
     Route::get('/settings', [HomeController::class, "settings"])->name('settings');
     Route::get('/checkout/{id}', [HomeController::class, "checkout"])->name('checkout');
     Route::get('/change-lang/{lang}', [HomeController::class, "changeLang"]);
+
+    Route::post('/order', [OrderController::class, "store"]);
 
     Route::post('/contact', [ContactController::class, "send"])->name('send_contact');
 

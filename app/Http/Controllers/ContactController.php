@@ -39,7 +39,7 @@ class ContactController extends Controller
             "subject"      => $request->subject,
             "message"      => $request->message,
         ]);
-        return view("home");
+        return redirect()->back();
     }
 
     public function delete(Request $request)

@@ -24,7 +24,8 @@
             <!--Billing Details-->
             <div class="billing-details">
                 <div class="shop-form">
-                    <form method="post" action="checkout.html">
+                    <form action="/order" method="post">
+                        @csrf
                         <div class="row clearfix">
                             <div class="col-lg-7 col-md-12 col-sm-12">
 
@@ -34,55 +35,100 @@
 
                                         <!--Form Group-->
                                         <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                            <div class="field-label">First name <sup>*</sup></div>
-                                            <input type="text" name="field-name" value="" placeholder="First Name">
+                                            <div class="field-label">Firstname<sup>*</sup></div>
+                                            <input type="text" name="firstname" value="" placeholder="First Name">
+                                            @error('firstname')
+                                            <span class="invalid-feedback" style="display: block !important;" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                            @enderror
                                         </div>
 
                                         <!--Form Group-->
                                         <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                            <div class="field-label">Last name <sup>*</sup></div>
-                                            <input type="text" name="field-name" value="" placeholder="Last Name">
+                                            <div class="field-label">Lastname <sup>*</sup></div>
+                                            <input type="text" name="lastname" value="" placeholder="Last Name">
+                                            @error('lastname')
+                                            <span class="invalid-feedback" style="display: block !important;" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                            @enderror
                                         </div>
 
                                         <!--Form Group-->
                                         <div class="form-group col-md-12 col-sm-12 col-xs-12">
                                             <div class="field-label">Address <sup>*</sup></div>
-                                            <input type="email" name="field-name" value="" placeholder="Street Address">
-                                            <input class="address-two" type="email" name="field-name" value="" placeholder="Apartment, Suit unit etc (optional)">
+                                            <input type="text" name="address" value="" placeholder="Street Address">
+                                            @error('address')
+                                            <span class="invalid-feedback" style="display: block !important;" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                            @enderror
+                                            <input class="address-two" type="text" name="address2" value="" placeholder="Apartment, Suit unit etc (optional)">
+                                            @error('address2')
+                                            <span class="invalid-feedback" style="display: block !important;" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                            @enderror
                                         </div>
 
                                         <!--Form Group-->
-                                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                            <div class="field-label">Country / City <sup>*</sup> </div>
-                                            <select name="country">
-                                                <option>Select an option</option>
-                                                @foreach($cities as $city)
-                                                    <option>{{$city->country . " / " . $city->city_asci}}</option>
-                                                @endforeach
-                                            </select>
-                                        </div>
+                                            <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                                <div class="field-label">City <sup>*</sup></div>
+                                                <input type="text" name="country" value="" placeholder="Country">
+                                                @error('country')
+                                                <span class="invalid-feedback" style="display: block !important;" role="alert">
+                                                    <strong>{{ $message }}</strong>
+                                                </span>
+                                                @enderror
+                                                <input class="address-two" type="text" name="city" value="" placeholder="City">
+                                                @error('city')
+                                                <span class="invalid-feedback" style="display: block !important;" role="alert">
+                                                    <strong>{{ $message }}</strong>
+                                                </span>
+                                                @enderror
+                                            </div>
 
                                         <!--Form Group-->
                                         <div class="form-group col-md-6 col-sm-6 col-xs-12">
                                             <div class="field-label">Postcode <sup>*</sup></div>
-                                            <input type="text" name="code" value="" placeholder="Postcode / Zip">
+                                            <input type="text" name="postal" value="" placeholder="Postcode / Zip">
+                                            @error('postal')
+                                            <span class="invalid-feedback" style="display: block !important;" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                            @enderror
                                         </div>
 
                                         <!--Form Group-->
                                         <div class="form-group col-md-6 col-sm-6 col-xs-12">
                                             <div class="field-label">Email Address <sup>*</sup></div>
-                                            <input type="text" name="field-name" value="" placeholder="Email Address">
+                                            <input type="email" name="email" value="" placeholder="Email Address">
+                                            @error('email')
+                                            <span class="invalid-feedback" style="display: block !important;" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                            @enderror
                                         </div>
 
                                         <!--Form Group-->
                                         <div class="form-group col-md-6 col-sm-6 col-xs-12">
                                             <div class="field-label">Phone <sup>*</sup></div>
-                                            <input type="text" name="field-name" value="" placeholder="Select an option">
+                                            <input type="text" name="phone" value="">
+                                            @error('phone')
+                                            <span class="invalid-feedback" style="display: block !important;" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                            @enderror
                                         </div>
                                         <div class="form-group col-md-12 col-sm-12 col-xs-12">
                                             <div class="field-label">Order Notes</div>
-                                            <textarea placeholder="Note about your order. e.g. special note for delivery"></textarea>
+                                            <textarea name="note" placeholder="Note about your order. e.g. special note for delivery"></textarea>
                                         </div>
+                                        <input type="hidden" name="package_id" value="{{$package->id}}">
+                                        <input type="hidden" name="total" value="{{$package->price}}">
+
+
 
                                     </div>
                                 </div>
@@ -130,7 +176,7 @@
                                             </ul>
                                         </div>
 
-                                        <button type="button" class="theme-btn btn-style-four"><span class="txt">Place Order</span></button>
+                                        <button type="submit" class="theme-btn btn-style-four"><span class="txt">Place Order</span></button>
 
                                     </div>
                                     <!--End Place Order-->

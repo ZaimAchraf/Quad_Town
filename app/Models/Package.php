@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Package extends Model
 {
@@ -22,5 +23,10 @@ class Package extends Model
     public function server(): BelongsTo
     {
         return $this->belongsTo(Server::class, "server_id");
+    }
+
+    public function orders(): HasMany
+    {
+        return $this->hasMany(Order::class,"package_id");
     }
 }

@@ -19,6 +19,10 @@ return [
     'channels' => 'Canaux',
     'contact' => 'Contacter',
     'pricing' => 'Tarification',
+    'send' => 'Envoyer',
+
+    'contact_details' => 'détails de Contact',
+    'send_message' => 'Envoyer un message',
 
 
     'main_title' => 'L\'IPTV qui vous offre plus que ce que vous demandez.',
@@ -54,6 +58,17 @@ return [
     'newsletter_subtitle' => 'Restez à jour avec nos dernières nouvelles et produits.',
     'subscribe' => 'S\'abonner',
     'config' => 'Configuration',
+
+
+    'our Channels' => 'nos chaînes',
+
+    "conf_title" => 'Comment configurer notre IPTV',
+    "conf_1" => 'Allumez Votre Appareil MAG. Chargez-Le Et Cliquez Sur Paramètres',
+    "conf_2" => 'Go to the Settings menu. Click on System Settings',
+    "conf_3" => 'Veuillez cliquer sur les serveurs',
+    "conf_4" => 'Sélectionnez "Portails"',
+    "conf_5" => 'Dans la ligne "Nom du portail 1", entrez un nom de portail et dans l\'URL du portail 1, entrez l\'URL du portail.',
+
 
 
     'more'   => 'Plus...',

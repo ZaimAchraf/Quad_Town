@@ -10,10 +10,10 @@
     <!-- Page Title -->
     <section class="page-title" style="background-image: url({{asset("assets")}}/images/background/10.jpg)">
         <div class="auto-container">
-            <h2>Contact us</h2>
+            <h2>{{__("index.contact")}}</h2>
             <ul class="bread-crumb clearfix">
-                <li><a href="index.html">Home</a></li>
-                <li>Contact us</li>
+                <li><a href="/">{{__("index.home")}}</a></li>
+                <li>{{__("index.contact")}}</li>
             </ul>
         </div>
     </section>
@@ -28,26 +28,26 @@
                 <div class="info-column col-lg-4 col-md-12 col-sm-12">
                     <div class="inner-column">
                         <div class="title-box">
-                            <h4>Contact Details</h4>
+                            <h4>{{__("index.contact_details")}}</h4>
                         </div>
                         <div class="lower-box">
                             <ul class="info-list">
                                 <li>
                                     <span class="icon flaticon-map"></span>
-                                    505 North State Street, <br> London, United Kingdom
+                                    503 Old Buffalo Street
+                                    Northwest #205, New York-3087
                                 </li>
                                 <li>
                                     <span class="icon flaticon-call"></span>
-                                    <a href="tel:+9684-32-45-789">9684 32 45 789</a><br>
-                                    <a href="tel:+9684-32-45-789">9684 32 45 789</a>
+                                    <a href="https://wa.me/13125006920" target="_blank">+1 (312) 500-6920</a><br>
+                                    <a href="https://wa.me/16059713044" target="_blank">+1 (605) 971-3044</a>
                                 </li>
                                 <li>
                                     <span class="icon flaticon-email-1"></span>
-                                    <a href="mailto:domain@info.com">domain@info.com</a><br>
-                                    <a href="www.companyname.com">www.companyname.com</a>
+                                    <a href="mailto:support@iptv-expert.com" style="margin-top: 15px">support@iptv-expert.com</a><br>
+                                    <a href="https://www.iptv-expert.com">www.iptv-expert.com</a>
                                 </li>
                             </ul>
-                            <div class="timing">Working hours 08:00 - 22:00</div>
 
                             <!-- Social Box -->
                             <ul class="social-box">
@@ -79,7 +79,7 @@
             <div class="contact-form-box">
 {{--                <!-- Form Title Box -->--}}
                 <div class="form-title-box">
-                    <h3>Send a Message</h3>
+                    <h3>{{__("index.send_message")}}</h3>
                 </div>
 
 {{--                <!-- Contact Form -->--}}
@@ -105,7 +105,7 @@
                             </div>
 
                             <div class="col-lg-12 col-md-12 col-sm-12 form-group text-center">
-                                <button class="theme-btn btn-style-four" type="submit" name="submit-form"><span class="txt">Submit Now</span></button>
+                                <button class="theme-btn btn-style-four" type="submit" name="submit-form"><span class="txt">{{__("index.send")}}</span></button>
                             </div>
 
                         </div>

@@ -32,7 +32,7 @@
                             <div class="lower-content">
                                 <!-- Accordian Outer -->
                                 <div class="accordion-outer">
-                                    <h4>How to Configure our IPTV</h4>
+                                    <h4>{{__("index.conf_title")}}</h4>
 
                                     <!-- Accordian Box / Style Two -->
                                     <ul class="accordion-box style-two">
@@ -40,7 +40,7 @@
                                         <!--Block-->
                                         <li class="accordion block active-block">
                                             <div class="acc-btn active"><div class="icon-outer"><span class="icon icon-plus fa fa-plus"></span> <span class="icon icon-minus fa fa-minus"></span></div>
-                                                1: Allumez votre appareil MAG. Chargez-le et cliquez sur Paramètres
+                                                1: {{__("index.conf_1")}}
                                             </div>
                                             <div class="acc-content current">
                                                 <div class="content">
@@ -54,7 +54,7 @@
                                         <!--Block-->
                                         <li class="accordion block">
                                             <div class="acc-btn"><div class="icon-outer"><span class="icon icon-plus fa fa-plus"></span> <span class="icon icon-minus fa fa-minus"></span></div>
-                                                2: Go to the Settings menu. Click on System Settings
+                                                2: {{__("index.conf_2")}}
                                             </div>
                                             <div class="acc-content">
                                                 <div class="content">
@@ -68,7 +68,7 @@
                                         <!--Block-->
                                         <li class="accordion block">
                                             <div class="acc-btn"><div class="icon-outer"><span class="icon icon-plus fa fa-plus"></span> <span class="icon icon-minus fa fa-minus"></span></div>
-                                                3: Veuillez cliquer sur les serveurs
+                                                3: {{__("index.conf_3")}}
                                             </div>
                                             <div class="acc-content">
                                                 <div class="content">
@@ -82,7 +82,7 @@
                                         <!--Block-->
                                         <li class="accordion block">
                                             <div class="acc-btn"><div class="icon-outer"><span class="icon icon-plus fa fa-plus"></span> <span class="icon icon-minus fa fa-minus"></span></div>
-                                                4: Sélectionnez "Portails"
+                                                4: {{__("index.conf_4")}}
                                             </div>
                                             <div class="acc-content">
                                                 <div class="content">
@@ -96,7 +96,7 @@
                                         <!--Block-->
                                         <li class="accordion block">
                                             <div class="acc-btn"><div class="icon-outer"><span class="icon icon-plus fa fa-plus"></span> <span class="icon icon-minus fa fa-minus"></span></div>
-                                                5: Dans la ligne "Nom du portail 1", entrez un nom de portail et dans l'URL du portail 1, entrez l'URL du portail.
+                                                5: {{__("index.conf_5")}}
                                             </div>
                                             <div class="acc-content">
                                                 <div class="content">
@@ -125,7 +125,7 @@
                         <div class="sidebar-widget contact-widget">
                             <div class="widget-content">
                                 <div class="sidebar-title">
-                                    <h5>Contact Us</h5>
+                                    <h5>{{__("index.contact")}}</h5>
                                 </div>
                                 <ul class="contact-info-widget">
                                     <li>
@@ -134,13 +134,13 @@
                                     </li>
                                     <li>
                                         <span class="icon flaticon-call"></span>
-                                        <a href="tel:+9684-32-45-789">+9684 32 45 789</a><br>
-                                        <a href="tel:+9684-32-45-789">+9684 32 45 789</a>
+                                        <a href="https://wa.me/16059713044" target="_blank">+1 (605) 971-3044</a><br>
+                                        <a href="https://wa.me/13125006920" target="_blank">+1 (312) 500-6920</a>
                                     </li>
                                     <li>
                                         <span class="icon flaticon-email-1"></span>
-                                        <a href="mailto:infoname@gmail.com">infoname@gmail.com</a><br>
-                                        <a href="www.yourname.com">www.yourname.com</a>
+                                        <a href="mailto:support@iptv-expert.com" style="margin-top: 15px">support@iptv-expert.com</a><br>
+                                        <a href="/">www.iptv-expert.com</a>
                                     </li>
                                 </ul>
                             </div>

@@ -29,7 +29,7 @@ class NewsletterController extends Controller
 
         Newsletter::create(["email" => $request->input("email")]);
 
-        return "ok";
+        return redirect()->back();
 
     }
     #################################### Inscription end ########################################

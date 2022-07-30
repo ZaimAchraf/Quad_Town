@@ -19,6 +19,11 @@ return [
     'channels' => 'Channels',
     'contact' => 'Contact',
     'pricing' => 'Pricing',
+    'send' => 'Send',
+
+    'contact_details' => 'Contact Details',
+    'send_message' => 'Send message',
+
 
 
     'main_title' => 'The IPTV That Offers You More Than You Ask.',
@@ -54,6 +59,18 @@ return [
     'newsletter_subtitle' => 'Stay up to update with our latest news and products.',
     'subscribe' => 'Subscribe',
     'config' => 'Settings',
+
+
+    'our Channels' => 'Our Channels',
+
+    "conf_title" => 'How to Configure our IPTV',
+    "conf_1" => 'Turn on your MAG Device. Load It And Click Settings',
+    "conf_2" => 'Go to the Settings menu. Click on System Settings',
+    "conf_3" => 'Please click on servers',
+    "conf_4" => 'Select "Portals"',
+    "conf_5" => 'In the "Portal 1 name" line, enter a portal name, and in Portal 1 URL, enter the portal URL.',
+
+
 
 
     'more'   => 'Read More',

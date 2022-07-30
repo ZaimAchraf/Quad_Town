@@ -1295,6 +1295,8 @@
 	position:relative;
 	border-radius:3px;
 	overflow:hidden;
+    height: 223px;
+    display: flex;
 }
 
 .feature-block .inner-box .image img{
@@ -1462,8 +1464,8 @@
 
 .feature-block .inner-box .post-meta li .icon{
 	position:absolute;
-	left:0px;
-	top:0px;
+	left:0;
+	top:0;
 	font-size:var(--font-15);
 	color:var(--main-color);
 }
@@ -1475,7 +1477,7 @@
 
 .feature-block .inner-box h6 a{
 	position:relative;
-	color:var(--white-color);
+	color:#1f3c5a;
 }
 
 .feature-block .inner-box h6 a:hover{

@@ -6,18 +6,18 @@
                 <span class="menu-title">Dashboard</span>
             </a>
         </li>
+
         <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+            <a class="nav-link" href="{{route("admin.managers.display")}}" >
                 <i class="icon-layout menu-icon"></i>
                 <span class="menu-title">Managers</span>
-                <i class="menu-arrow"></i>
             </a>
-            <div class="collapse" id="ui-basic">
-                <ul class="nav flex-column sub-menu">
-                    <li class="nav-item"> <a class="nav-link" href="{{route("admin.managers.display")}}">Les managers</a></li>
-                    <li class="nav-item"> <a class="nav-link" href="{{route("admin.managers.add")}}">Ajouter manager</a></li>
-                </ul>
-            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{route("admin.orders")}}" >
+                <i class="menu-icon fas fa-mail-bulk"></i>
+                <span class="menu-title">Orders</span>
+            </a>
         </li>
         <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#form-elements" aria-expanded="false" aria-controls="form-elements">
@@ -34,16 +34,10 @@
 
         </li>
         <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#tables" aria-expanded="false" aria-controls="tables">
+            <a class="nav-link" href="{{route("admin.inbox")}}" >
                 <i class="icon-grid-2 menu-icon"></i>
                 <span class="menu-title">Inbox</span>
-                <i class="menu-arrow"></i>
             </a>
-            <div class="collapse" id="tables">
-                <ul class="nav flex-column sub-menu">
-                    <li class="nav-item"> <a class="nav-link" href="{{ route("admin.inbox") }}">Tous les messages</a></li>
-                </ul>
-            </div>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="{{route("admin.newsletter")}}" >

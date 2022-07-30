@@ -13,8 +13,8 @@
         <div class="auto-container">
             <h2>Channels</h2>
             <ul class="bread-crumb clearfix">
-                <li><a href="index.html">Home</a></li>
-                <li>Channels</li>
+                <li><a href="/">{{__("index.home")}}</a></li>
+                <li>{{__("index.channels")}}</li>
             </ul>
         </div>
     </section>
@@ -31,8 +31,7 @@
             <div class="sec-title light">
                 <div class="clearfix">
                     <div class="pull-left">
-                        <div class="title">Now Showing</div>
-                        <h2>Channels showing</h2>
+                        <h2>{{__("index.our Channels")}}</h2>
                     </div>
                 </div>
             </div>
@@ -44,21 +43,16 @@
                 <div class="feature-block">
                     <div class="inner-box">
                         <div class="image">
-                            <img src="{{asset("assets")}}/images/resource/feature-1.jpg" alt="" />
+                            <img src="{{asset("assets")}}/images/channels/bein.png" alt="" />
                             <div class="overlay-box">
                                 <ul class="post-meta">
-                                    <li><span class="icon fa fa-star"></span>5.7</li>
-                                    <li><span class="icon fa fa-comment"></span>25</li>
                                 </ul>
                             </div>
                         </div>
                         <div class="lower-content">
                             <div class="clearfix">
                                 <div class="pull-left">
-                                    <h6><a href="movie.html">Robin Hood</a></h6>
-                                </div>
-                                <div class="pull-right">
-                                    <div class="year">2010</div>
+                                    <h6><a href="#">Bein Sport</a></h6>
                                 </div>
                             </div>
                         </div>
@@ -69,21 +63,16 @@
                 <div class="feature-block">
                     <div class="inner-box">
                         <div class="image">
-                            <img src="{{asset("assets")}}/images/resource/feature-2.jpg" alt="" />
+                            <img src="{{asset("assets")}}/images/channels/film.jpg" alt="" />
                             <div class="overlay-box">
                                 <ul class="post-meta">
-                                    <li><span class="icon fa fa-star"></span>5.7</li>
-                                    <li><span class="icon fa fa-comment"></span>25</li>
                                 </ul>
                             </div>
                         </div>
                         <div class="lower-content">
                             <div class="clearfix">
                                 <div class="pull-left">
-                                    <h6><a href="movie.html">Bad Boys Life</a></h6>
-                                </div>
-                                <div class="pull-right">
-                                    <div class="year">2012</div>
+                                    <h6><a href="#">Film1</a></h6>
                                 </div>
                             </div>
                         </div>
@@ -94,21 +83,16 @@
                 <div class="feature-block">
                     <div class="inner-box">
                         <div class="image">
-                            <img src="{{asset("assets")}}/images/resource/feature-3.jpg" alt="" />
+                            <img src="{{asset("assets")}}/images/channels/canal.png" alt="" />
                             <div class="overlay-box">
                                 <ul class="post-meta">
-                                    <li><span class="icon fa fa-star"></span>5.7</li>
-                                    <li><span class="icon fa fa-comment"></span>25</li>
                                 </ul>
                             </div>
                         </div>
                         <div class="lower-content">
                             <div class="clearfix">
                                 <div class="pull-left">
-                                    <h6><a href="movie.html">Hot Dolitle</a></h6>
-                                </div>
-                                <div class="pull-right">
-                                    <div class="year">2014</div>
+                                    <h6><a href="#">Canal+</a></h6>
                                 </div>
                             </div>
                         </div>
@@ -119,21 +103,16 @@
                 <div class="feature-block">
                     <div class="inner-box">
                         <div class="image">
-                            <img src="{{asset("assets")}}/images/resource/feature-4.jpg" alt="" />
+                            <img src="{{asset("assets")}}/images/channels/Eleven.png" alt="" />
                             <div class="overlay-box">
                                 <ul class="post-meta">
-                                    <li><span class="icon fa fa-star"></span>5.7</li>
-                                    <li><span class="icon fa fa-comment"></span>25</li>
                                 </ul>
                             </div>
                         </div>
                         <div class="lower-content">
                             <div class="clearfix">
                                 <div class="pull-left">
-                                    <h6><a href="movie.html">Invisible Man</a></h6>
-                                </div>
-                                <div class="pull-right">
-                                    <div class="year">2016</div>
+                                    <h6><a href="#">Eleven Sport</a></h6>
                                 </div>
                             </div>
                         </div>
@@ -144,21 +123,16 @@
                 <div class="feature-block">
                     <div class="inner-box">
                         <div class="image">
-                            <img src="{{asset("assets")}}/images/resource/feature-5.jpg" alt="" />
+                            <img src="{{asset("assets")}}/images/channels/fox.png" alt="" />
                             <div class="overlay-box">
                                 <ul class="post-meta">
-                                    <li><span class="icon fa fa-star"></span>5.7</li>
-                                    <li><span class="icon fa fa-comment"></span>25</li>
                                 </ul>
                             </div>
                         </div>
                         <div class="lower-content">
                             <div class="clearfix">
                                 <div class="pull-left">
-                                    <h6><a href="movie.html">Onward Hood</a></h6>
-                                </div>
-                                <div class="pull-right">
-                                    <div class="year">2018</div>
+                                    <h6><a href="#">Fox Sports</a></h6>
                                 </div>
                             </div>
                         </div>
@@ -169,21 +143,16 @@
                 <div class="feature-block">
                     <div class="inner-box">
                         <div class="image">
-                            <img src="{{asset("assets")}}/images/resource/feature-6.jpg" alt="" />
+                            <img src="{{asset("assets")}}/images/channels/hbo.png" alt="" />
                             <div class="overlay-box">
                                 <ul class="post-meta">
-                                    <li><span class="icon fa fa-star"></span>5.7</li>
-                                    <li><span class="icon fa fa-comment"></span>25</li>
                                 </ul>
                             </div>
                         </div>
                         <div class="lower-content">
                             <div class="clearfix">
                                 <div class="pull-left">
-                                    <h6><a href="movie.html">Tenet Life</a></h6>
-                                </div>
-                                <div class="pull-right">
-                                    <div class="year">2019</div>
+                                    <h6><a href="#">HBO</a></h6>
                                 </div>
                             </div>
                         </div>
@@ -194,21 +163,16 @@
                 <div class="feature-block">
                     <div class="inner-box">
                         <div class="image">
-                            <img src="{{asset("assets")}}/images/resource/feature-7.jpg" alt="" />
+                            <img src="{{asset("assets")}}/images/channels/play.png" alt="" />
                             <div class="overlay-box">
                                 <ul class="post-meta">
-                                    <li><span class="icon fa fa-star"></span>5.7</li>
-                                    <li><span class="icon fa fa-comment"></span>25</li>
                                 </ul>
                             </div>
                         </div>
                         <div class="lower-content">
                             <div class="clearfix">
                                 <div class="pull-left">
-                                    <h6><a href="movie.html">The Grudge</a></h6>
-                                </div>
-                                <div class="pull-right">
-                                    <div class="year">2020</div>
+                                    <h6><a href="#">Play More + Play Sport</a></h6>
                                 </div>
                             </div>
                         </div>
@@ -219,21 +183,16 @@
                 <div class="feature-block">
                     <div class="inner-box">
                         <div class="image">
-                            <img src="{{asset("assets")}}/images/resource/feature-8.jpg" alt="" />
+                            <img src="{{asset("assets")}}/images/channels/sky.png" alt="" />
                             <div class="overlay-box">
                                 <ul class="post-meta">
-                                    <li><span class="icon fa fa-star"></span>5.7</li>
-                                    <li><span class="icon fa fa-comment"></span>25</li>
                                 </ul>
                             </div>
                         </div>
                         <div class="lower-content">
                             <div class="clearfix">
                                 <div class="pull-left">
-                                    <h6><a href="movie.html">Underwater</a></h6>
-                                </div>
-                                <div class="pull-right">
-                                    <div class="year">2021</div>
+                                    <h6><a href="#">Sky sports</a></h6>
                                 </div>
                             </div>
                         </div>
@@ -244,21 +203,16 @@
                 <div class="feature-block">
                     <div class="inner-box">
                         <div class="image">
-                            <img src="{{asset("assets")}}/images/resource/feature-9.jpg" alt="" />
+                            <img src="{{asset("assets")}}/images/channels/sky.jpg" alt="" />
                             <div class="overlay-box">
                                 <ul class="post-meta">
-                                    <li><span class="icon fa fa-star"></span>5.7</li>
-                                    <li><span class="icon fa fa-comment"></span>25</li>
                                 </ul>
                             </div>
                         </div>
                         <div class="lower-content">
                             <div class="clearfix">
                                 <div class="pull-left">
-                                    <h6><a href="movie.html">The Turning</a></h6>
-                                </div>
-                                <div class="pull-right">
-                                    <div class="year">2021</div>
+                                    <h6><a href="#">Sky Cinema</a></h6>
                                 </div>
                             </div>
                         </div>
@@ -269,21 +223,16 @@
                 <div class="feature-block">
                     <div class="inner-box">
                         <div class="image">
-                            <img src="{{asset("assets")}}/images/resource/feature-10.jpg" alt="" />
+                            <img src="{{asset("assets")}}/images/channels/ziggo.png" alt="" />
                             <div class="overlay-box">
                                 <ul class="post-meta">
-                                    <li><span class="icon fa fa-star"></span>5.7</li>
-                                    <li><span class="icon fa fa-comment"></span>25</li>
                                 </ul>
                             </div>
                         </div>
                         <div class="lower-content">
                             <div class="clearfix">
                                 <div class="pull-left">
-                                    <h6><a href="movie.html">Birds of Prey</a></h6>
-                                </div>
-                                <div class="pull-right">
-                                    <div class="year">2022</div>
+                                    <h6><a href="#">ZIGGO SPORT</a></h6>
                                 </div>
                             </div>
                         </div>

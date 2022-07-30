@@ -6,6 +6,7 @@ use App\Http\Controllers\Admin\ManagerController;
 use App\Http\Controllers\Admin\ProductController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\NewsletterController;
+use App\Http\Controllers\OrderController;
 use App\Http\Controllers\PackageController;
 use App\Http\Controllers\ServerController;
 use Illuminate\Support\Facades\Route;
@@ -39,6 +40,7 @@ Route::namespace("Admin")->prefix("admin")->name("admin.")->group(function () {
     Route::middleware("auth:admin")->group(function () {
 
         Route::get("dashboard", [AdminController::Class, "index"])->name("dashboard");
+        Route::get("orders", [OrderController::Class, "index"])->name("orders");
         Route::get("/", [AdminController::Class, "index"])->name("dashboard");
 
         Route::get("profile", [ManagerController::Class, "profile"])->name("managers.profile");

@@ -53,8 +53,7 @@
                 </li>
                 <li>
                     <span class="icon"><img src="{{asset("assets")}}/images/icons/icon-2.png" alt="" /></span>
-                    <a href="mailto:support@iptv-expert.com">support@iptv-expert.com</a><br>
-                    <a href="mailto:support@iptv-expert.com">support@iptv-expert.com</a>
+                    <a href="mailto:support@iptv-expert.com" style="margin-top: 15px">support@iptv-expert.com</a><br>
                 </li>
                 <li>
                     <span class="icon"><img src="{{asset("assets")}}/images/icons/icon-3.png" alt="" /></span>
@@ -76,7 +75,7 @@
     <!-- Footer Bottom -->
     <div class="footer-bottom">
         <div class="auto-container">
-            <div class="copyright">&copy; 2022 Your Company. All Rights Reserved. Developed By <a href="https://themeforest.net/user/themexriver">Zaim Achraf</a></div>
+            <div class="copyright">Copyright © 2022 <a href="#">IPTV Expert</a> - IPTV QUEBEC CANADA USA - Le Meilleur fournisseur IPTV au Canada.</div>
         </div>
     </div>
 </footer>
