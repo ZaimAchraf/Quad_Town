@@ -26,8 +26,8 @@ Route::group(['middleware' => 'App\Http\Middleware\Language'], function () {
     Route::get('/about', [HomeController::class, "about"])->name('about');
     Route::get('/channels', [HomeController::class, "channels"])->name('channels');
     Route::get('/contact', [HomeController::class, "contact"])->name('contact');
-    Route::get('/settings', [HomeController::class, "settings"])->name('settings');
-    Route::get('/checkout/{id}', [HomeController::class, "checkout"])->name('checkout');
+    Route::get('/vehicles', [HomeController::class, "vehicles"])->name('vehicles');
+    Route::get('/booking', [HomeController::class, "booking"])->name('booking');
     Route::get('/change-lang/{lang}', [HomeController::class, "changeLang"]);
 
     Route::post('/order', [OrderController::class, "store"]);

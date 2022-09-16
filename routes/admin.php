@@ -7,7 +7,7 @@ use App\Http\Controllers\Admin\ProductController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\NewsletterController;
 use App\Http\Controllers\OrderController;
-use App\Http\Controllers\PackageController;
+use App\Http\Controllers\VehicleController;
 use App\Http\Controllers\ServerController;
 use Illuminate\Support\Facades\Route;
 
@@ -54,7 +54,7 @@ Route::namespace("Admin")->prefix("admin")->name("admin.")->group(function () {
         Route::post("message/setRead", [ContactController::Class, "setRead"])->name("message.setRead");
 
         Route::get("newsletter", [NewsletterController::Class, "display"])->name("newsletter");
-        Route::post("newsletter/changeState", [PackageController::Class, "changeState"])->name("newsletter.changeState");
+        Route::post("newsletter/changeState", [VehicleController::Class, "changeState"])->name("newsletter.changeState");
 
 
         #################################   Super Admin Tasks Begin    ###########################################################
@@ -78,26 +78,16 @@ Route::namespace("Admin")->prefix("admin")->name("admin.")->group(function () {
 
         #################################   Moderator Tasks Begin  ###############################################################
 
-        Route::prefix("servers")->group(function (){
 
-            Route::get("/all",[ServerController::class,"index"])->name("server.index");
-            Route::get("/",[ServerController::class,"index"])->name("server.index");
-            Route::get("/add",[ServerController::class,"create"])->name("server.create");
-            Route::post("/store-server",[ServerController::class,"store"])->name("server.store");
-            Route::get("/edit-server/{id}",[ServerController::class,"edit"])->name("server.edit");
-            Route::post("/update-server/{id}",[ServerController::class,"update"])->name("server.update");
-            Route::get("/destroy/{id}",[ServerController::class,"destroy"])->name("server.destroy");
-        });
+        Route::prefix("vehicles")->group(function (){
 
-        Route::prefix("packages")->group(function (){
-
-            Route::get("/all",[PackageController::class,"index"])->name("package.index");
-            Route::get("/",[PackageController::class,"index"])->name("package.index");
-            Route::get("/add",[PackageController::class,"create"])->name("package.create");
-            Route::post("/store-package",[PackageController::class,"store"])->name("package.store");
-            Route::get("/edit-package/{id}",[PackageController::class,"edit"])->name("package.edit");
-            Route::post("/update-package/{id}",[PackageController::class,"update"])->name("package.update");
-            Route::get("/destroy/{id}",[PackageController::class,"destroy"])->name("package.destroy");
+            Route::get("/all",[VehicleController::class,"index"])->name("vehicle.index");
+            Route::get("/",[VehicleController::class,"index"])->name("vehicle.index");
+            Route::get("/add",[VehicleController::class,"create"])->name("vehicle.create");
+            Route::post("/store-vehicle",[VehicleController::class,"store"])->name("vehicle.store");
+            Route::get("/edit-vehicle/{id}",[VehicleController::class,"edit"])->name("vehicle.edit");
+            Route::post("/update-vehicle/{id}",[VehicleController::class,"update"])->name("vehicle.update");
+            Route::get("/destroy/{id}",[VehicleController::class,"destroy"])->name("vehicle.destroy");
         });
 
         #################################   Moderator Tasks End    ###############################################################

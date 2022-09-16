@@ -4,12 +4,10 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Models\Manager;
-use App\Models\Product;
 use App\Models\User;
-use Illuminate\Http\JsonResponse;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Session;
 
 class AdminController extends Controller
 {
@@ -26,7 +24,8 @@ class AdminController extends Controller
         return view('backOffice.dashboard')->with(["manager" => $manager,"nbrClients" => $nbrClients,"nbrProducts" => $nbrProducts]);
     }
 
-    public function check(Request $request) {
+    public function check(Request $request): RedirectResponse
+    {
         // inputs validation
         $request->validate([
             "email" => "required|email|exists:managers,email",

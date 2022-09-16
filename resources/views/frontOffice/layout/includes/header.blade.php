@@ -1,126 +1,28 @@
 <!-- Main Header -->
 <header class="main-header">
 
-    <!-- Header Top -->
-    <div class="header-top">
-        <div class="auto-container clearfix" style="background: #00507e; margin-left: 0">
-
-            <div class="pull-left">
-                <ul class="info">
-                    <li><a href="https://wa.me/16059713044" target="_blank"><span class="icon flaticon-maps-and-flags"></span>Call: +16059713044</a></li>
-                    <li><a href="mailto:support@iptv-expert.com"><span class="icon flaticon-email-2"></span>support@iptv-expert.com</a></li>
-                </ul>
-            </div>
-
-            <div class="pull-right clearfix">
-                <!-- Social Box -->
-                <ul class="social-box">
-                    <li><a href="https://www.facebook.com/" class="fa fa-facebook-f"></a></li>
-                    <li><a href="https://www.twitter.com/" class="fa fa-twitter"></a></li>
-                    <li><a href="https://dribbble.com/" class="fa fa-dribbble"></a></li>
-                    <li><a href="https://www.linkedin.com/" class="fa fa-linkedin"></a></li>
-                </ul>
-            </div>
-
-        </div>
-    </div>
-
-    <!-- Header Lower -->
-    <div class="header-lower">
-
-        <div class="auto-container clearfix">
-            <div class="inner-container clearfix">
-
-                <div class="pull-left logo-box">
-                    <div class="logo"><a href="/"><img src="{{asset("assets")}}/images/logo.png" width="180px" height="70px" alt="" title=""></a></div>
-                </div>
-                <div class="nav-outer clearfix">
-
-                    <!-- Mobile Navigation Toggler -->
-                    <div class="mobile-nav-toggler"><span class="icon flaticon-menu"></span></div>
-                    <!-- Main Menu -->
-                    <nav class="main-menu show navbar-expand-md">
-                        <div class="navbar-header">
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                        </div>
-
-                        <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
-                            <ul class="navigation clearfix">
-                                <li><a href="{{route("home")}}">{{__("index.home")}}</a></li>
-                                <li><a href="{{route("about")}}">{{__("index.about")}}</a></li>
-                                <li><a href="{{route("channels")}}">{{__("index.channels")}}</a></li>
-                                <li><a href="{{route("settings")}}">{{__("index.config")}}</a></li>
-                                <li><a href="{{route("contact")}}">{{__("index.contact")}}</a></li>
-                                <li class="dropdown"><a href="#"><i class="fa fa-globe"></i></a>
-                                    <ul>
-                                        <li><a href="/change-lang/en">EN</a></li>
-                                        <li><a href="/change-lang/fr">FR</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-
-                    </nav>
-                    <!-- Main Menu End-->
-
-                    <!-- Outer Box -->
-                    <div class="outer-box clearfix">
-
-                        <!-- Nav Btn -->
-                        <div class="nav-btn navSidebar-button"><span class="icon flaticon-dots-menu"></span></div>
-
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative nav-bar p-0">
+        <div class="position-relative px-lg-5" style="z-index: 9;">
+            <nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-3 py-lg-0 pl-3 pl-lg-5">
+                <a href="/" class="navbar-brand">
+                    <h1 class="text-uppercase text-primary mb-1">Quad Town</h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href="/" class="nav-item nav-link active">Home</a>
+                        <a href="{{route("about")}}" class="nav-item nav-link">About</a>
+                        <a href="{{route("vehicles")}}" class="nav-item nav-link">Vehicles</a>
+                        <a href="{{route("contact")}}" class="nav-item nav-link">Contact</a>
                     </div>
-                    <!-- End Outer Box -->
-
                 </div>
-            </div>
-
+            </nav>
         </div>
     </div>
-    <!-- End Header Lower -->
-
-    <!-- Sticky Header  -->
-    <div class="sticky-header">
-        <div class="auto-container clearfix">
-            <!-- Logo -->
-            <div class="logo pull-left">
-                <a href="/" title=""><img src="{{asset("assets")}}/images/logo-small.png" style="margin-top: -16px;" width="170px" height="50px" alt="" title=""></a>
-            </div>
-
-            <!--Right Col-->
-            <div class="pull-right">
-                <!-- Main Menu -->
-                <nav class="main-menu">
-                    <!--Keep This Empty / Menu will come through Javascript-->
-                </nav><!-- Main Menu End-->
-
-                <!-- Outer Box -->
-                <div class="outer-box clearfix">
-
-                    <!-- Nav Btn -->
-                    <div class="nav-btn navSidebar-button"><span class="icon flaticon-dots-menu"></span></div>
-
-                </div>
-                <!-- End Outer Box -->
-
-            </div>
-        </div>
-    </div><!-- End Sticky Menu -->
-
-    <!-- Mobile Menu  -->
-    <div class="mobile-menu">
-        <div class="menu-backdrop"></div>
-        <div class="close-btn"><span class="icon flaticon-multiply"></span></div>
-
-        <nav class="menu-box">
-            <div class="nav-logo"><a href="/"><img src="{{asset("assets")}}/images/logo.png" alt="" title=""></a></div>
-            <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
-        </nav>
-    </div><!-- End Mobile Menu -->
+    <!-- Navbar End -->
 
 </header>
 <!-- End Main Header -->

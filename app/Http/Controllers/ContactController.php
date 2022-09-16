@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Contact;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
 
 class ContactController extends Controller
 {
@@ -15,7 +16,9 @@ class ContactController extends Controller
     }
 
     public function send (Request $request) {
-        $request->validate(
+
+        $validator = Validator::make(
+            $request->all(),
             [
                 "full_name"   => "required|max:50",
                 "email"       => "required|email",
@@ -33,13 +36,17 @@ class ContactController extends Controller
             ]
         );
 
+        if ($validator->fails()) {
+            return "error";
+        }
+
         Contact::create([
             "full_name"    => $request->full_name,
             "email"        => $request->email,
             "subject"      => $request->subject,
             "message"      => $request->message,
         ]);
-        return redirect()->back();
+        return "ok";
     }
 
     public function delete(Request $request)

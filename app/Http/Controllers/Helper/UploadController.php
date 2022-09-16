@@ -10,7 +10,7 @@ use Illuminate\Http\Request;
 class UploadController extends Controller
 {
 
-    public static function managerPic(Request $request)
+    public static function managerPic(Request $request): string
     {
 
         $file=$request->file('images')[0];
@@ -21,19 +21,13 @@ class UploadController extends Controller
         return $filename;
     }
 
-    public static function productPics(Request $request)
+    public static function vehiclePic(Request $request): string
     {
+        $file = $request->file('images')[0];
+        $extension = strtolower($file->getClientOriginalExtension());
+        $filename = "vehicle-".uniqid(time()).".".$extension;
+        $file->move('uploads/vehicles/pictures/',$filename);
 
-        $files=$request->file('images');
-        $filenameList = [];
-        foreach ($files as $file){
-            $extension = strtolower($file->getClientOriginalExtension());
-            $filename = "product-".uniqid(time()).".".$extension;
-            $file->move('uploads/servers/category-'.$request->category_id."/",$filename);
-            $filenameList[] = 'category-'.$request->category_id."/".$filename;
-        }
-
-
-        return $filenameList;
+        return $filename;
     }
 }

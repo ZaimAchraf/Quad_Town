@@ -19,7 +19,7 @@ return [
     'qualities_title_2' => 'You Choose us',
 
     'quality_1_title' => 'Easy to install',
-    'quality_1_core' => 'Installing our packages on your smart tv or multimedia box is easy.',
+    'quality_1_core' => 'Installing our vehicles on your smart tv or multimedia box is easy.',
     'quality_2_title' => 'Increased performance',
     'quality_2_core' => 'Enjoy a high-performance television experience.',
     'quality_3_title' => 'Unbeatable price',

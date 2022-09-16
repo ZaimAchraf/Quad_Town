@@ -1,53 +1,44 @@
 <!-- Main Section -->
 <section class="main-slider">
 
-    <div class="main-slider-carousel owl-carousel owl-theme">
-
-        <div class="slide" style="background-image: url({{asset("assets")}}/images/main-slider/slider_1.jpg)">
-            <div class="pattern-layer" style="background-image: url({{asset("assets")}}/images/main-slider/pattern-layer.png)"></div>
-            <!-- <div class="color-layer-one"></div>
-            <div class="color-layer-two"></div>
-            <div class="color-layer-three"></div> -->
-            <div class="auto-container">
-
-                <!-- Content Boxed -->
-                <div class="content-boxed">
-                    <div class="inner-box">
-                        <div class="title">Expert IPTV</div>
-                        <h1>{{__("index.main_title")}}</h1>
-                        <div class="btns-box">
-                            <a href="about.html" class="theme-btn btn-style-two"><span class="txt">{{__("index.more")}}</span></a>
-                            <a href="contact.html" class="theme-btn btn-style-three"><span class="txt">{{__("index.contact")}}</span></a>
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0" style="margin-bottom: 90px;">
+        <div id="header-carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="{{asset("assets")}}/images/carousel-1.jpg" style="min-height: 480px !important;" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-white text-uppercase mb-md-3">Rent A Vehicle</h4>
+                            <h1 class="display-1 text-white mb-md-4">Best Rental Quads In Your Location</h1>
+                            <a href="/booking" class="btn btn-primary py-md-3 px-md-5 mt-2">Reserve Now</a>
                         </div>
                     </div>
                 </div>
-
-            </div>
-        </div>
-
-        <div class="slide" style="background-image: url({{asset("assets")}}/images/main-slider/slider_2.jpg)">
-            <div class="pattern-layer" style="background-image: url({{asset("assets")}}/images/main-slider/pattern-layer.png)"></div>
-            <!-- <div class="color-layer-one"></div>
-            <div class="color-layer-two"></div>
-            <div class="color-layer-three"></div> -->
-            <div class="auto-container">
-
-                <!-- Content Boxed -->
-                <div class="content-boxed">
-                    <div class="inner-box">
-                        <div class="title">Expert IPTV</div>
-                        <h1>{{__("index.main_title")}}</h1>
-                        <div class="btns-box">
-                            <a href="{{route("about")}}" class="theme-btn btn-style-two"><span class="txt">{{__("index.more")}}</span></a>
-                            <a href="{{route("contact")}}" class="theme-btn btn-style-three"><span class="txt">{{__("index.contact")}}</span></a>
+                <div class="carousel-item">
+                    <img class="w-100" src="{{asset("assets")}}/images/carousel-2.jpg" style="min-height: 480px !important;" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-white text-uppercase mb-md-3">Rent A Vehicle</h4>
+                            <h1 class="display-1 text-white mb-md-4">Quality Quads with Unlimited fun</h1>
+                            <a href="/booking" class="btn btn-primary py-md-3 px-md-5 mt-2">Reserve Now</a>
                         </div>
                     </div>
                 </div>
-
             </div>
+            <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
+                <div class="btn btn-dark" style="width: 45px; height: 45px;">
+                    <span class="carousel-control-prev-icon mb-n2"></span>
+                </div>
+            </a>
+            <a class="carousel-control-next" href="#header-carousel" data-slide="next">
+                <div class="btn btn-dark" style="width: 45px; height: 45px;">
+                    <span class="carousel-control-next-icon mb-n2"></span>
+                </div>
+            </a>
         </div>
-
     </div>
+    <!-- Carousel End -->
 
 </section>
 <!-- End Main Section -->

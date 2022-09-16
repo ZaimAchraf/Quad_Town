@@ -3,11 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\City;
-use App\Models\Favory;
-use App\Models\Package;
-use App\Models\Product;
 use Illuminate\Http\RedirectResponse;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
 
 class HomeController extends Controller
@@ -25,8 +21,8 @@ class HomeController extends Controller
 
     public function index()
     {
-        $packages = Package::all();
-        return view('home')->with(["packages" => $packages]);
+//        $packages = Package::all();
+        return view('home');
     }
 
     public function about()
@@ -36,11 +32,11 @@ class HomeController extends Controller
         return view('frontOffice.about');
     }
 
-    public function channels()
+    public function vehicles()
     {
 //        $servers = Product::with(["pictures","category"])->where("visibility",1)->limit(7)->get();
 
-        return view('frontOffice.channels');
+        return view('frontOffice.vehicles');
     }
 
     public function contact()
@@ -50,13 +46,9 @@ class HomeController extends Controller
         return view('frontOffice.contact');
     }
 
-    public function checkout($id)
+    public function booking()
     {
-        $package = Package::find($id);
-
-        $cities = City::all();
-
-        return view('frontOffice.checkout')->with(["package"=>$package, "cities" => $cities]);
+        return view('frontOffice.booking');
     }
 
     public function settings()

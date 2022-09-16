@@ -14,20 +14,13 @@ class Order extends Model
      */
     protected $fillable = [
         "firstname",
-        "package_id",
         "lastname",
         "email",
         "phone",
-        "address",
-        "city",
-        "country",
-        "postal",
+        "time",
+        "date",
+        "nbr_children",
+        "nbr_adults",
         "note",
-        "total"
     ];
-
-    public function package(): BelongsTo
-    {
-        return $this->belongsTo(Package::class, "package_id");
-    }
 }
