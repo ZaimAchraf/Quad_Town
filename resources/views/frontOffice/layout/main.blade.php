@@ -19,6 +19,13 @@
             color: whitesmoke;
             background: #F77D0A;
         }
+
+        .whatsapp {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            z-index: 10000;
+        }
     </style>
 
     <!-- Responsive -->
@@ -33,9 +40,9 @@
     <div class="row">
         <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
             <div class="d-inline-flex align-items-center">
-                <a class="text-body pr-3" href=""><i class="fa fa-phone-alt mr-2"></i>+00000000000</a>
+                <a class="text-body pr-3" href="https://wa.me/212655869149"><i class="fa fa-phone-alt mr-2"></i>+212 6-55869149</a>
                 <span class="text-body">|</span>
-                <a class="text-body px-3" href=""><i class="fa fa-envelope mr-2"></i>exemple@example.com</a>
+                <a class="text-body px-3" href="mailto:quadtown22@gmail.com"><i class="fa fa-envelope mr-2"></i>quadtown22@gmail.com</a>
             </div>
         </div>
         <div class="col-md-6 text-center text-lg-right">
@@ -71,6 +78,12 @@
 
 
     @include('frontOffice.layout.includes.footer')
+
+    <div class="whatsapp">
+        <a href="https://wa.me/212655869149" target="_blank">
+            <img src="{{asset("assets")}}/images/whatsapp.png" alt="" width="70px" />
+        </a>
+    </div>
 
 
 </div>

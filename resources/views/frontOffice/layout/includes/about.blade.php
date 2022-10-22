@@ -7,7 +7,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
                     <img class="w-75 mb-4" src="{{asset("assets")}}/images/about.png" alt="">
-                    <p>Justo et eos et ut takimata sed sadipscing dolore lorem, et elitr labore labore voluptua no rebum sed, stet voluptua amet sed elitr ea dolor dolores no clita. Dolores diam magna clita ea eos amet, amet rebum voluptua vero vero sed clita accusam takimata. Nonumy labore ipsum sea voluptua sea eos sit justo, no ipsum sanctus sanctus no et no ipsum amet, tempor labore est labore no. Eos diam eirmod lorem ut eirmod, ipsum diam sadipscing stet dolores elitr elitr eirmod dolore. Magna elitr accusam takimata labore, et at erat eirmod consetetur tempor eirmod invidunt est, ipsum nonumy at et.</p>
+                    <p>you don't have to feel bored anymore, to think about a plan to enjoy your time to change the routine . We all agree that the best moments of our lifes are the ones that we spend with our friends , our family, quads ...gives you the opportunity to enjoy your day share the good vibes with them and forget about the streess of life , join us to create sweet memories.</p>
                 </div>
             </div>
             <div class="row mt-3">

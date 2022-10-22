@@ -1,5 +1,5 @@
-.htaccess
-/vendor/
-node_modules/
-npm-debug.log
-yarn-error.log
+# .htaccess
+# /vendor/
+# node_modules/
+# npm-debug.log
+# yarn-error.log

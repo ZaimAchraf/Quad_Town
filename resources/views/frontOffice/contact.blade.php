@@ -47,31 +47,31 @@
                 <div class="col-lg-5 mb-2">
                     <div class="bg-secondary d-flex flex-column justify-content-center px-5 mb-4" style="height: 435px;">
                         <div class="d-flex mb-3">
-                            <i class="fa fa-2x fa-map-marker-alt text-primary flex-shrink-0 mr-3"></i>
+                            <i class="fa fa-phone fa-map-marker-alt text-primary flex-shrink-0 mr-3" style="font-size: 26px"></i>
                             <div class="mt-n1">
                                 <h5 class="text-light">Phone Number</h5>
-                                <p>+2120000000</p>
+                                <p>+212 6-55869149</p>
                             </div>
                         </div>
                         <div class="d-flex mb-3">
-                            <i class="fa fa-phone fa-map-marker-alt text-primary flex-shrink-0 mr-3"></i>
+                            <i class="fa fa-2x fa-map-marker-alt text-primary flex-shrink-0 mr-3"></i>
                             <div class="mt-n1">
                                 <h5 class="text-light">Branch Office</h5>
-                                <p>123 Street, New York, USA</p>
+                                <p>Kerrandou, Rich, Morocco, 52 400</p>
                             </div>
                         </div>
                         <div class="d-flex mb-3">
                             <i class="fa fa-2x fa-envelope-open text-primary flex-shrink-0 mr-3"></i>
                             <div class="mt-n1">
                                 <h5 class="text-light">Customer Service</h5>
-                                <p>customer@example.com</p>
+                                <p>quadtown22@gmail.com</p>
                             </div>
                         </div>
                         <div class="d-flex">
                             <i class="fa fa-2x fa-envelope-open text-primary flex-shrink-0 mr-3"></i>
                             <div class="mt-n1">
                                 <h5 class="text-light">Return & Refund</h5>
-                                <p class="m-0">refund@example.com</p>
+                                <p class="m-0">quadtown22@gmail.com</p>
                             </div>
                         </div>
                     </div>
